@@ -1,0 +1,59 @@
+header{
+    display: flex;
+    text-align: left;
+    font-family: "roboto", sans-serif;
+    font-size: 16px;
+}
+
+body{
+    float: center;
+    text-align: center;
+    font-family: "roboto", sans-serif;
+    font-size: large;
+}
+
+#footeresquerda{
+    display: flex;
+    float: left;
+    text-align: left;
+    font-family: "roboto", sans-serif;
+    font-size: 16px;
+}
+
+#footerdireita{
+    display: flex;
+    float: right;
+    text-align: right;
+    align-items: right;
+    justify-content: right;
+    font-family: "roboto", sans-serif;
+    font-size: 16px;
+}
+
+#gnomio{
+    display: flex;
+    float: left;
+    align-items: left;
+}
+
+#tabela{
+    display: flex;
+    align-items: right;
+    text-align: right;
+}
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+}
+
+
+th, td {
+    border: 1px solid #ccc; 
+    padding: 8px; 
+    text-align: left; 
+}
+
+th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
